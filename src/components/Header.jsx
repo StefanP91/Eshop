@@ -89,7 +89,7 @@ const Header = () => {
                 <Navbar expand="lg" className="bg-light bg-gradient border-bottom">
                     <Container className="d-flex justify-content-evenly">
                         <NavLink to="/" className={"navbar-brand"}>
-                            <img src="/images/logo.png" alt="Brand Logo" className="logo"/>
+                            <img src="images/logo.png" alt="Brand Logo" className="logo"/>
                         </NavLink>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
