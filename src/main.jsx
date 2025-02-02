@@ -36,12 +36,12 @@ import './index.css'
 
 const router = createBrowserRouter([
   {
-    path: '/Eshop',
+    path: '/',
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: '/Eshop',
+        path: '/',
         element: <Homepage />,
       },
       {
