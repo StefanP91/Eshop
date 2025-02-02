@@ -1,0 +1,3 @@
+<?php
+
+    $base = mysqli_connect("localhost", "root", "", "e_shop");
