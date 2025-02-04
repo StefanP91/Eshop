@@ -1,3 +1,3 @@
 <?php
 
-    $base = mysqli_connect("sql102.infinityfree.com", "if0_38236466", "jCJXGWfDlOFt", "if0_38236466_e_shop");
+    $base = mysqli_connect("fdb1030.awardspace.net", "4584120_ehop", "wcraaikido91", "4584120_ehop");
