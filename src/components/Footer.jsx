@@ -13,7 +13,7 @@ const Footer = () => {
         e.preventDefault(); 
 
         try {
-            const response = await fetch('http://eshop.local/subscribe.php', {
+            const response = await fetch('http://webshop.free.nf/subscribe.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',

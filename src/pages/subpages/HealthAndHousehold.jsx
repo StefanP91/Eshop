@@ -17,7 +17,7 @@ const HealthAndHousehold = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`http://eshop.local/health&household.php`); 
+                const response = await fetch(`http://webshop.free.nf/health&household.php`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }

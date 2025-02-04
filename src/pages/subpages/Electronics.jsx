@@ -17,7 +17,7 @@ const Electronics = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`http://eshop.local/electronics_page.php`); 
+                const response = await fetch(`http://webshop.free.nf/electronics_page.php`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }
