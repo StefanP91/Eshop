@@ -16,7 +16,7 @@ const ToysAndGames = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`http://eshop.local/toys&games.php`); 
+                const response = await fetch(`https://eshop.local/toys&games.php`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }

@@ -19,7 +19,7 @@ const about = () => {
             const formData = new FormData(form);
 
             try {
-                const response = await fetch('http://webshop.free.nf/login.php', {
+                const response = await fetch('https://webshop.free.nf/login.php', {
                     method: 'POST',
                     body: formData,
                 });

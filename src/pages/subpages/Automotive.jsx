@@ -17,7 +17,7 @@ const Automotive = () => {
 
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`http://webshop.free.nf/automotive_page.php`); 
+                const response = await fetch(`https://webshop.free.nf/automotive_page.php`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }
