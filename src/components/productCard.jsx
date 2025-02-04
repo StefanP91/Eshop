@@ -18,7 +18,7 @@ const productCard = ({ productId }) => {
 
       const fetchProducts = async () => {
         try {
-          const response = await fetch(`https://webshop.free.nf/show_all_products.php`);
+          const response = await fetch(`http://platfromshop.atwebpages.com/show_all_products.php`);
           if (!response.ok) {
             throw new Error('Failed to fetch product');
           }
