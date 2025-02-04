@@ -14,10 +14,10 @@ const Automotive = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        
+
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`http://eshop.site/automotive_page.php`); 
+                const response = await fetch(`http://webshop.free.nf/automotive_page.php`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }
