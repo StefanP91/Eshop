@@ -17,7 +17,7 @@ const HealthAndHousehold = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`http://platfromshop.atwebpages.com/health&household.php`); 
+                const response = await fetch(`https://api-eshop.herokuapp.com/health&household.php`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }

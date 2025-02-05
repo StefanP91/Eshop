@@ -19,7 +19,7 @@ const about = () => {
             const formData = new FormData(form);
 
             try {
-                const response = await fetch('http://platfromshop.atwebpages.com/login.php', {
+                const response = await fetch('https://api-eshop.herokuapp.com/login.php', {
                     method: 'POST',
                     body: formData,
                 });

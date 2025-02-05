@@ -13,7 +13,7 @@ const Footer = () => {
         e.preventDefault(); 
 
         try {
-            const response = await fetch('http://platfromshop.atwebpages.com/subscribe.php', {
+            const response = await fetch('https://api-eshop.herokuapp.com/subscribe.php', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',

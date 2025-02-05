@@ -35,7 +35,7 @@ const Checkout = () => {
 
         const formData = new FormData(event.target);
         try {
-            fetch('http://platfromshop.atwebpages.com/order.php', {
+            fetch('https://api-eshop.herokuapp.com/order.php', {
                 method: 'POST',
                 body: formData,
             })

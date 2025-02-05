@@ -17,7 +17,7 @@ const HomeAndLifestyle = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`http://platfromshop.atwebpages.com/home&lifestyle.php`); 
+                const response = await fetch(`https://api-eshop.herokuapp.com/home&lifestyle.php`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }
