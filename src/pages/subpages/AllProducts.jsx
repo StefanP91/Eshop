@@ -17,7 +17,7 @@ const AllProducts = () => {
 
         const fetchProducts = async () => {
           try {
-            const response = await fetch(`https://api-eshop.herokuapp.com/all_products_page.php`, {mode: 'cors'});
+            const response = await fetch(`https://api-eshop.herokuapp.com/all_products_page.php`);
 
             if (!response.ok) {
               throw new Error('Failed to fetch product');

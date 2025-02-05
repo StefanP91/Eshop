@@ -17,7 +17,7 @@ const Automotive = () => {
 
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`https://api-eshop.herokuapp.com/automotive_page.php`, {mode: 'cors'}); 
+                const response = await fetch(`https://api-eshop.herokuapp.com/automotive_page.php`); 
                 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
