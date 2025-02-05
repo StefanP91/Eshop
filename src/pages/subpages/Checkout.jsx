@@ -35,7 +35,7 @@ const Checkout = () => {
 
         const formData = new FormData(event.target);
         try {
-            fetch('https://api-eshop.herokuapp.com/order.php', {
+            fetch('https://webshop.free.nf/order.php', {
                 method: 'POST',
                 body: formData,
             })

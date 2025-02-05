@@ -16,7 +16,7 @@ const PetsSupplies = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`https://api-eshop.herokuapp.com/pets_supplies.php`); 
+                const response = await fetch(`https://webshop.free.nf/pets_supplies.php`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }

@@ -16,7 +16,7 @@ const WomansFashion = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`https://api-eshop.herokuapp.com/womans_fashion.php`); 
+                const response = await fetch(`https://webshop.free.nf/womans_fashion.php`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }

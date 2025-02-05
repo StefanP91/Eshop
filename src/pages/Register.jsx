@@ -25,7 +25,7 @@ const Register = () => {
             const formData = new FormData(form);
             
             try {
-                const response = await fetch('https://api-eshop.herokuapp.com/register.php', {
+                const response = await fetch('https://webshop.free.nf/register.php', {
                     method: 'POST',
                     body: formData,
                 });
