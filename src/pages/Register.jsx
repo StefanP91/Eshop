@@ -28,6 +28,7 @@ const Register = () => {
                 const response = await fetch('https://webshop.free.nf/register.php', {
                     method: 'POST',
                     body: formData,
+                    mode: 'no-cors'
                 });
 
                 if (!response.ok) {

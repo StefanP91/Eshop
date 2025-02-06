@@ -16,7 +16,7 @@ const SpotsAndOutdoor = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`https://webshop.free.nf/sports&outdoor.php`); 
+                const response = await fetch(`https://webshop.free.nf/sports&outdoor.php`, {mode: 'no-cors'}); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }

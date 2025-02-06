@@ -19,6 +19,7 @@ const Footer = () => {
                     'Content-Type': 'application/x-www-form-urlencoded',
                 },
                 body: new URLSearchParams({ email }),
+                mode: 'no-cors'
             });
 
             const data = await response.json();

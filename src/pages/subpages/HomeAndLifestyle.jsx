@@ -17,7 +17,7 @@ const HomeAndLifestyle = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`https://webshop.free.nf/home&lifestyle.php`); 
+                const response = await fetch(`https://webshop.free.nf/home&lifestyle.php`, {mode: 'no-cors'}); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }

@@ -17,7 +17,7 @@ const HealthAndHousehold = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`https://webshop.free.nf/health&household.php`); 
+                const response = await fetch(`https://webshop.free.nf/health&household.php`, {mode: 'no-cors'}); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }

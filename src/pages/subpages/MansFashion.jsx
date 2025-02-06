@@ -17,7 +17,7 @@ const MansFashion = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`https://webshop.free.nf/mans_fashion.php`); 
+                const response = await fetch(`https://webshop.free.nf/mans_fashion.php`, {mode: 'no-cors'}); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }
