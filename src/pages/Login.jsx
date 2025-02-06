@@ -22,7 +22,6 @@ const about = () => {
                 const response = await fetch('https://webshop.free.nf/login.php', {
                     method: 'POST',
                     body: formData,
-                    mode: 'no-cors'
                 });
 
                 const result = await response.json();

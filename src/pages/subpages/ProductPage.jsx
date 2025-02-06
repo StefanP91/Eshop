@@ -34,7 +34,7 @@ const ProductPage = () => {
 
         const fetchProduct = async () => {
             try {
-                const response = await fetch(`https://webshop.free.nf/all_products_page.php?product_id=${product_id}`, {mode: 'no-cors'}); 
+                const response = await fetch(`https://webshop.free.nf/all_products_page.php?product_id=${product_id}`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product'); 
                 }

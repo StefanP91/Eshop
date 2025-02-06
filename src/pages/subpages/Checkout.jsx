@@ -38,7 +38,6 @@ const Checkout = () => {
             fetch('https://webshop.free.nf/order.php', {
                 method: 'POST',
                 body: formData,
-                mode: 'no-cors'
             })
             .then(response => response.json())
             .then(data => {
