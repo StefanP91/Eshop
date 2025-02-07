@@ -17,7 +17,7 @@ const Automotive = () => {
 
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`https://api-eshop-42ioj8rk8-stefan-panovs-projects.vercel.app/automotive_page.php`); 
+                const response = await fetch(`/backend/automotive_page.php`); 
                 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');

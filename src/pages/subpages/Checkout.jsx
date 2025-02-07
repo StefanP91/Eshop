@@ -35,7 +35,7 @@ const Checkout = () => {
 
         const formData = new FormData(event.target);
         try {
-            fetch('https://webshop.free.nf/order.php', {
+            fetch('/backend/order.php', {
                 method: 'POST',
                 body: formData,
             })

@@ -25,7 +25,7 @@ const Register = () => {
             const formData = new FormData(form);
             
             try {
-                const response = await fetch('https://webshop.free.nf/register.php', {
+                const response = await fetch('/backend/register.php', {
                     method: 'POST',
                     body: formData,
                 });

@@ -16,7 +16,7 @@ const ToysAndGames = () => {
         
         const fetchProducts = async () => {
             try {
-                const response = await fetch(`https://webshop.free.nf/toys&games.php`); 
+                const response = await fetch(`/backend/toys&games.php`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product');
                 }

@@ -34,7 +34,7 @@ const ProductPage = () => {
 
         const fetchProduct = async () => {
             try {
-                const response = await fetch(`https://api-webshop-gold.vercel.app/api/all_products_page.php?product_id=${product_id}`); 
+                const response = await fetch(`/backend/all_products_page.php?product_id=${product_id}`); 
                 if (!response.ok) {
                     throw new Error('Failed to fetch product'); 
                 }
